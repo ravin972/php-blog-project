@@ -1,0 +1,38 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# XAMPP/Laragon specific
+/vendor/
+/node_modules/
+/.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Cache
+*.log
+*.cache
+*.session
+*.bak
+
+# Composer
+composer.lock
+
+# Database
+/db.php
+/blog.db
+/uploads/
+# Uploaded files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+# Session files
+*.sess
+/sessions/
+# Backup files
+*.bak
+
