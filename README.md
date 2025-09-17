@@ -22,7 +22,7 @@ This project is built with **pure PHP (no frameworks)** and is deployed live on 
 - ✅ MySQL database integration
 
 ---
-
+```
 ## 📂 Project Structure
 ```
 
@@ -44,7 +44,7 @@ blog\_project/
 │── README.md        # Project documentation
 │── .gitignore       # Git ignore file
 
-````
+```
 
 ---
 
@@ -54,8 +54,8 @@ blog\_project/
    ```bash
    git clone https://github.com/YOUR_USERNAME/php-blog-project.git
    cd php-blog-project
-````
-
+```
+```
 2. **Move files into your server directory**
 
    * For **XAMPP** → place inside `C:/xampp/htdocs/blog_project/`
@@ -66,8 +66,9 @@ blog\_project/
    * Open **phpMyAdmin** ([http://localhost/phpmyadmin](http://localhost/phpmyadmin)).
    * Create a new database, e.g., `blog_db`.
    * Import `db.sql` (if provided, or create tables manually).
-
+```
    Example table:
+   ```
 
    ```sql
    CREATE TABLE users (
@@ -102,12 +103,6 @@ blog\_project/
 
 ---
 
-## 🖼️ Screenshots
-
-👉 Add your screenshots here (homepage, login, profile, etc.)
-
----
-
 ## 📌 Technologies Used
 
 * **PHP** (Core PHP)
@@ -122,15 +117,9 @@ blog\_project/
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
----
-
-## 📜 License
-
-This project is **open-source** and available under the [MIT License](LICENSE).
 
 ```
 
----
 
 👉 Do you want me to also create a **`db.sql` file** with tables (users & posts) so you can include it in your GitHub repo? That way, anyone can set up your project instantly.
 ```
